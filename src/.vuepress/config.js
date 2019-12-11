@@ -1,8 +1,8 @@
 module.exports = {
     dest: './docs',  // 设置输出目录
-    base: '/newBlog/',// 设置站点根路径
-    title: '辰砂首页', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-    description: '辰砂的前端记录', // meta 中的描述文字，用于SEO
+    base: '/newBlog/',// 设置站点根路径，即github上项目blog项目的名称
+    title: '阿毛心怀宇宙', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
+    description: '阿毛的前端记录（项目参照整改中）', // meta 中的描述文字，用于SEO
     // 注入到当前页面的 HTML <head> 中的标签
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],  //浏览器的标签栏的网页图标
