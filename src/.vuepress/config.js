@@ -24,7 +24,7 @@ module.exports = {
                 ariaLabel: '分类',
                 items: [
                     { text: '文章', link: '/pages/folder1/test1.md' },
-                    { text: '琐碎', link: '/pages/folder2/test4.md' },
+                    { text: '琐碎', link: '/pages/folder2/test5.md' },
                 ]
             },
             { text: '功能演示', link: '/pages/folder1/test3.md' },
