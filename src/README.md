@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: 辰砂的前端记录
+heroText: 阿毛的前端记录
 tagline: 一点一滴都是进步
 actionText: 狠狠点我 →
 actionLink: /pages/folder1/test1.md
@@ -17,4 +17,4 @@ features:
 
 <!-- <ClientOnly>
   <BottomData/>
-</ClientOnly> --> 
+</ClientOnly> -->
