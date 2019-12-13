@@ -38,7 +38,7 @@ module.exports = {
                     sidebarDepth: 1,    // 可选的, 默认值是 1
                     children: [
                         ['test1.md', '前端开发笔记'],
-                        ['test3.md', 'vue笔记']
+                        ['js-test1.md', 'js知识点整理']
                     ]
                 },
                 {
