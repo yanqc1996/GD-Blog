@@ -27,7 +27,6 @@ module.exports = {
                     { text: '琐碎', link: '/pages/folder2/test5.md' },
                 ]
             },
-            // { text: '功能演示', link: '/pages/folder1/test3.md' },
             { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
         ],
         sidebar: {
@@ -37,7 +36,7 @@ module.exports = {
                     collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1,    // 可选的, 默认值是 1
                     children: [
-                        ['test1.md', '前端开发笔记'],
+                        ['yan-2.md', '数组去重探究'],
                         ['js-test1.md', 'js知识点整理']
                     ]
                 },
