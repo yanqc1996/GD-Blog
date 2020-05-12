@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: 阿毛的前端记录
 tagline: 一点一滴都是进步
 actionText: 狠狠点我 →
-actionLink: /pages/folder1/test1.md
+actionLink: /pages/develop-node/test1.md
 features:
 - title: 心灵鸡汤
   details: 每天进步一点点，你终会成为别人眼中的大牛。
