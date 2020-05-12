@@ -1,23 +1,23 @@
 # vuepress+github
 
-vuepress官网：[https://www.vuepress.cn/](https://www.vuepress.cn/)
+vuepress官网：[https://www.vuepress.cn/](https://www.vuepress.cn/)<br />
 
-
-## 搭建步骤：
-1.全局安装vuepress：终端 npm install -g vuepress
-2.github新建仓库并拉取
-3.具体项目搭建流程见官网，下文介绍一些配置信息
+<a name="zzSkW"></a>
+## 搭建步骤
+1.全局安装vuepress：终端 npm install -g vuepress<br />2.github新建仓库并拉取<br />3.具体项目搭建流程见官网，下文介绍一些配置信息
+<a name="Oi1kG"></a>
 ## 项目结构
-
-#### package.json文件，项目基本信息文件
+<a name="yJiYB"></a>
+#### package.json文件：项目基本信息文件
 ```
 "scripts": {
     "dev": "vuepress dev src",//本地启动
     "build": "vuepress build src"//打包
 },
 ```
-#### src文件夹，开发代码
-主要关注src/.vuepress/config.js内含详细的注释，配置相关的页面参数
+<a name="Sdbbt"></a>
+#### src文件夹：开发代码
+主要关注src/.vuepress/config.js内含详细的注释，用于配置相关的页面显示和路由跳转
 ```
 module.exports = {
     dest: './docs',  // 设置输出目录
@@ -79,21 +79,15 @@ module.exports = {
 ```
 
 
+<a name="iHdWt"></a>
 #### docs文件夹
 运行npm run build后打包出来的文件夹。
-
+<a name="BOmZj"></a>
 ## github仓库设置
-点击博客仓库的**Settings**，向下滚动至**GitHub Pages，Source**的下来列表选择第二个选项**master branch/docs floder**
-**Source**上面一行浅蓝色底文字是你设置好以后的博客地址
-
+点击仓库的**Settings**，向下滚动至**GitHub Pages，Source**的下来列表选择第二个选项**master branch/docs floder，Source**上面一行浅蓝色底文字是你设置好以后的博客地址
+<a name="colorfully-egg"></a>
 ## colorfully egg
-为提升网站趣味性，添加了live2d元素，
-主要思路是页面加载完成后创建canvas标签添加至body，然后调用loadlive2d（）
-当前的引入方案仅提供参考，不一定是最佳方案，如果有更好的可以分享至评论区，大家共同学习
-关于live2d的教程分享张鑫旭的文章[二次元live2d看板娘效果中的web前端技术](https://www.zhangxinxu.com/wordpress/2018/05/live2d-web-webgl-js/)，他的其他文章也非常推荐大家阅读
-文件路径为src/.vuepress/public/live2dModels/live2d
-为保证在各自项目都能运行需要对init.js作一丢丢的调整---第八行 newBlog 替换为你的仓库名
-具体路径为src/.vuepress/public/live2dModels/live2d/js/init.js
+为提升网站趣味性，添加了live2d元素，<br />主要思路是页面加载完成后创建canvas标签添加至body，然后调用loadlive2d（）<br />live2d的教程分享张鑫旭的文章[二次元live2d看板娘效果中的web前端技术](https://www.zhangxinxu.com/wordpress/2018/05/live2d-web-webgl-js/)<br />为保证在各自项目都能运行需要对init.js作一丢丢的调整---第八行 newBlog 替换为你的仓库名<br />具体路径为src/.vuepress/public/live2dModels/live2d/js/init.js
 ```
 window.addEventListener('load',function(){
   var canvas = document.createElement('canvas');
@@ -107,8 +101,7 @@ window.addEventListener('load',function(){
 ```
 
 
+<a name="gUWuj"></a>
 ## 注意事项
-本地启动开发不支持热更新
-src中的代码调整完后先npm run build打包，再提交至远程仓库，博客内容才会更新
-
+本地启动开发不支持热更新<br />src中的代码调整完后先npm run build打包，再提交至远程仓库，博客内容才会更新<br />
 
