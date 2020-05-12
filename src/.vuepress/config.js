@@ -23,8 +23,8 @@ module.exports = {
                 text: '分类',
                 ariaLabel: '分类',
                 items: [
-                    { text: '文章', link: '/pages/develop-node/test1.md' },
-                    { text: '琐碎', link: '/pages/project-tools/test5.md' },
+                    { text: '开发笔记', link: '/pages/develop-node/test1.md' },
+                    { text: '项目常用工具', link: '/pages/project-tools/test5.md' },
                 ]
             },
             { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
