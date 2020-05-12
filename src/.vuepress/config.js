@@ -23,28 +23,31 @@ module.exports = {
                 text: '分类',
                 ariaLabel: '分类',
                 items: [
-                    { text: '文章', link: '/pages/folder1/test1.md' },
-                    { text: '琐碎', link: '/pages/folder2/test5.md' },
+                    { text: '文章', link: '/pages/develop-node/test1.md' },
+                    { text: '琐碎', link: '/pages/project-tools/test5.md' },
                 ]
             },
             { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
         ],
         sidebar: {
-            '/pages/folder1/':[
+            '/pages/develop-node/':[
                 {
                     title: '开发笔记',   // 必要的
                     collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1,    // 可选的, 默认值是 1
                     children: [
-                        ['yan-2.md', '数组去重探究'],
-                        ['js-test1.md', 'js知识点整理']
+                        ['array-dedup.md', '数组去重探究'],
+                        ['js-points.md', 'js知识点整理'],
+                        ['svg-point.md', 'svg基础知识'],
                     ]
-                },
+                }
+            ],
+            '/pages/project-tools/':[
                 {
-                    title: '杂七杂八',
+                    title: '项目常用工具',
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
-                        ['test2.md', 'vuepress+github搭建博客教程']
+                        ['vuepress.md', 'vuepress+github搭建博客教程']
                     ]
                 }
             ],
