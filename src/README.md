@@ -1,17 +1,17 @@
 ---
 home: true
-heroImage: /logo.png
-heroText: 阿毛的前端记录
-tagline: 一点一滴都是进步
-actionText: 狠狠点我 →
+heroImage: /login.png
+heroText: 前端搬运工
+tagline: 慢慢理解世界
+actionText: 血小板天下无敌 →
 actionLink: /pages/develop-node/test1.md
 features:
-- title: 心灵鸡汤
-  details: 每天进步一点点，你终会成为别人眼中的大牛。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 程序猿鼓励师
+  details: 哇哦，周四啦
+- title: 佛系三连
+  details: 都行，可以，没关系
+- title: 技术栈
+  details: 本人擅长Ai、Fw、Fl、Br、Ae、Pr、Id、Ps等软件的安装与卸载，精通CSS、JavaScript、PHP、ASP、C、C＋＋、C#、Java、Ruby、Perl、Lisp、python、Objective-C、ActionScript、Pascal、spss、sas等单词的拼写，熟悉Windows、Linux、Mac、Android、IOS、WP8等系统的开关机。
 ---
 
 

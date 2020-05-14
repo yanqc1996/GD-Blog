@@ -5,7 +5,7 @@ module.exports = {
     description: '阿毛的前端记录（项目参照整改中）', // meta 中的描述文字，用于SEO
     // 注入到当前页面的 HTML <head> 中的标签
     head: [
-        ['link', { rel: 'icon', href: '/logo.png' }],  //浏览器的标签栏的网页图标
+        ['link', { rel: 'icon', href: '/login.png' }],  //浏览器的标签栏的网页图标
         ['link', { rel: 'stylesheet', href: '/live2dModels/live2d/css/common.css' }],  //引入css
         ['script', { type: 'text/javascript', src: '/live2dModels/live2d/js/live2d.js' }],  //引入live2d
         ['script', { type: 'text/javascript', src: '/live2dModels/live2d/js/init.js' }],  //引入live2d初始化脚本,async:'async'
@@ -15,7 +15,7 @@ module.exports = {
     },
     serviceWorker: true,
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/login.png',
         lastUpdated: 'lastUpdate', // string | boolean
         nav: [
             { text: '首页', link: '/' },
@@ -47,7 +47,9 @@ module.exports = {
                     title: '项目常用工具',
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
-                        ['vuepress.md', 'vuepress+github搭建博客教程']
+                        ['vuepress.md', 'vuepress+github搭建博客教程'],
+                        ['mockjs.md', 'mockjs引入项目'],
+                        ['vue-jest.md', 'vue-jest单元测试'],
                     ]
                 }
             ],
