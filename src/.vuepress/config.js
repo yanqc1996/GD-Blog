@@ -25,6 +25,7 @@ module.exports = {
                 items: [
                     { text: '开发笔记', link: '/pages/develop-node/test1.md' },
                     { text: '项目常用工具', link: '/pages/project-tools/test5.md' },
+                    { text: 'react学习', link: '/pages/react-node/react-demo.md' },
                 ]
             },
             { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
