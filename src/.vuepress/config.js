@@ -53,6 +53,15 @@ module.exports = {
                     ]
                 }
             ],
+            '/pages/react-node/':[
+                {
+                    title: 'react学习',
+                    collapsable: false, // 可选的, 默认值是 true,
+                    children: [
+                        ['react-demo.md', 'react项目初始化+路由相关'],
+                    ]
+                }
+            ],
         }
     }
 }
