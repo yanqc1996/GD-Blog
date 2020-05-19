@@ -25,7 +25,7 @@ module.exports = {
                 items: [
                     { text: '开发笔记', link: '/pages/develop-node/test1.md' },
                     { text: '项目常用工具', link: '/pages/project-tools/test5.md' },
-                    { text: 'react学习', link: '/pages/react-node/react-demo.md' },
+                    { text: 'react学习', link: '/pages/react-node/React概括.md' },
                 ]
             },
             { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
@@ -60,6 +60,7 @@ module.exports = {
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
                         ['react-demo.md', 'react项目初始化+路由相关'],
+                        ['React概括.md', 'react必备知识点'],
                     ]
                 }
             ],
