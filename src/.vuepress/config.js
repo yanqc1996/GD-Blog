@@ -25,6 +25,7 @@ module.exports = {
                 items: [
                     { text: '开发笔记', link: '/pages/develop-node/test1.md' },
                     { text: '项目常用工具', link: '/pages/project-tools/test5.md' },
+                    { text: 'Vue学习', link: '/pages/vue-node/vue生命周期详解.md' },
                     { text: 'react学习', link: '/pages/react-node/React概括.md' },
                 ]
             },
@@ -61,6 +62,15 @@ module.exports = {
                     children: [
                         ['react-demo.md', 'react项目初始化+路由相关'],
                         ['React概括.md', 'react必备知识点'],
+                    ]
+                }
+            ],
+            '/pages/vue-node/':[
+                {
+                    title: 'Vue学习',
+                    collapsable: false, // 可选的, 默认值是 true,
+                    children: [
+                        ['vue生命周期详解.md', 'vue生命周期详解'],
                     ]
                 }
             ],
