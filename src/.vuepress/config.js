@@ -62,6 +62,7 @@ module.exports = {
                     children: [
                         ['react-demo.md', 'react项目初始化+路由相关'],
                         ['React概括.md', 'react必备知识点'],
+                        ['Redux基础.md', 'Redux基础'],
                     ]
                 }
             ],
