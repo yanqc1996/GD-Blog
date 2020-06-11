@@ -5,5 +5,5 @@ window.addEventListener('load',function(){
   canvas.height = '250';
   canvas.style.cssText = 'position: fixed;right:-60px;bottom:20px;';
   document.body.appendChild(canvas);
-  loadlive2d("live2d", "/newBlog/live2dModels/live2d/model/kesshouban/model.json");
+  loadlive2d("live2d", "/yqc-blog/live2dModels/live2d/model/kesshouban/model.json");
 })

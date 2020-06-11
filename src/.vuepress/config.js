@@ -1,6 +1,6 @@
 module.exports = {
     dest: './docs',  // 设置输出目录
-    base: '/newBlog/',// 设置站点根路径，即github上项目blog项目的名称
+    base: '/yqc-blog/',// 设置站点根路径，即github上项目blog项目的名称
     title: '阿毛心怀宇宙', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
     description: '阿毛的前端记录（项目参照整改中）', // meta 中的描述文字，用于SEO
     // 注入到当前页面的 HTML <head> 中的标签
@@ -29,7 +29,7 @@ module.exports = {
                     { text: 'react学习', link: '/pages/react-node/React概括.md' },
                 ]
             },
-            { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
+            { text: 'Github', link: 'https://github.com/yanqc1996/yqc-blog' },
         ],
         sidebar: {
             '/pages/develop-node/':[

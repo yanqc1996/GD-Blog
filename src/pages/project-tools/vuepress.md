@@ -21,7 +21,7 @@ vuepress官网：[https://www.vuepress.cn/](https://www.vuepress.cn/)<br />
 ```
 module.exports = {
     dest: './docs',  // 设置输出目录
-    base: '/newBlog/',// 设置站点根路径，即github上项目blog项目的名称
+    base: '/yqc-blog/',// 设置站点根路径，即github上项目blog项目的名称
     title: '阿毛心怀宇宙', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
     description: '阿毛的前端记录（项目参照整改中）', // meta 中的描述文字，用于SEO
     // 注入到当前页面的 HTML <head> 中的标签
@@ -48,7 +48,7 @@ module.exports = {
                     { text: '项目常用工具', link: '/pages/project-tools/test5.md' },
                 ]
             },
-            { text: 'Github', link: 'https://github.com/yanqc1996/newBlog' },
+            { text: 'Github', link: 'https://github.com/yanqc1996/yqc-blog' },
         ],
         sidebar: {
             '/pages/develop-node/':[
@@ -87,7 +87,7 @@ module.exports = {
 点击仓库的**Settings**，向下滚动至**GitHub Pages，Source**的下来列表选择第二个选项**master branch/docs floder，Source**上面一行浅蓝色底文字是你设置好以后的博客地址
 <a name="colorfully-egg"></a>
 ## colorfully egg
-为提升网站趣味性，添加了live2d元素，<br />主要思路是页面加载完成后创建canvas标签添加至body，然后调用loadlive2d（）<br />live2d的教程分享张鑫旭的文章[二次元live2d看板娘效果中的web前端技术](https://www.zhangxinxu.com/wordpress/2018/05/live2d-web-webgl-js/)<br />为保证在各自项目都能运行需要对init.js作一丢丢的调整---第八行 newBlog 替换为你的仓库名<br />具体路径为src/.vuepress/public/live2dModels/live2d/js/init.js
+为提升网站趣味性，添加了live2d元素，<br />主要思路是页面加载完成后创建canvas标签添加至body，然后调用loadlive2d（）<br />live2d的教程分享张鑫旭的文章[二次元live2d看板娘效果中的web前端技术](https://www.zhangxinxu.com/wordpress/2018/05/live2d-web-webgl-js/)<br />为保证在各自项目都能运行需要对init.js作一丢丢的调整---第八行 yqc-blog 替换为你的仓库名<br />具体路径为src/.vuepress/public/live2dModels/live2d/js/init.js
 ```
 window.addEventListener('load',function(){
   var canvas = document.createElement('canvas');
@@ -96,7 +96,7 @@ window.addEventListener('load',function(){
   canvas.height = '250';
   canvas.style.cssText = 'position: fixed;right:-40px;bottom:0;';
   document.body.appendChild(canvas);
-  loadlive2d("live2d", "/newBlog/live2dModels/live2d/model/kesshouban/model.json");//wzp替换为仓库名
+  loadlive2d("live2d", "/yqc-blog/live2dModels/live2d/model/kesshouban/model.json");//wzp替换为仓库名
 })
 ```
 
