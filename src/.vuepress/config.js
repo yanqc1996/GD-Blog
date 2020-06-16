@@ -42,6 +42,7 @@ module.exports = {
                         ['js-points.md', 'js知识点整理'],
                         ['svg-point.md', 'svg基础知识'],
                         ['原型与原型链.md', '原型与原型链'],
+                        ['Object_Function-原型与原型链拓展.md','Object/Function-原型与原型链拓展']
                     ]
                 }
             ],
