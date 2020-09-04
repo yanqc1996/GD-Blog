@@ -44,7 +44,7 @@ module.exports = {
                 text: '分类',
                 ariaLabel: '分类',
                 items: [
-                    { text: '开发笔记', link: '/pages/develop-node/test1.md' },
+                    { text: '开发笔记', link: '/pages/index/index.md' },
                     { text: '项目常用工具', link: '/pages/project-tools/test5.md' },
                 ]
             },
